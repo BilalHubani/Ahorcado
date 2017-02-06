@@ -25,6 +25,16 @@ class ViewController: UIViewController , UITextFieldDelegate{
     @IBOutlet weak var letter: UITextField!
     @IBOutlet weak var charsUsed: UILabel!
     @IBOutlet weak var hanged: UIImageView!
+    @IBAction func textChanged(_ sender: UITextField) {
+        if (sender.text?.isEmpty)! {
+            
+        }else{
+        chars.append(Character(sender.text!))
+        chars.append(Character(" "))
+        charsUsed.text = String(chars)
+        }
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
