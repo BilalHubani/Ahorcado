@@ -29,9 +29,11 @@ class ViewController: UIViewController , UITextFieldDelegate{
         if (sender.text?.isEmpty)! {
             
         }else{
+            
         chars.append(Character(sender.text!))
         chars.append(Character(" "))
         charsUsed.text = String(chars)
+            letter.text = ""
         }
     }
     
