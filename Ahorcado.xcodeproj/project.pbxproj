@@ -1,0 +1,526 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		338DA7BF1E48D57B008A1656 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 338DA7BE1E48D57B008A1656 /* AppDelegate.swift */; };
+		338DA7C11E48D57B008A1656 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 338DA7C01E48D57B008A1656 /* ViewController.swift */; };
+		338DA7C41E48D57B008A1656 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 338DA7C21E48D57B008A1656 /* Main.storyboard */; };
+		338DA7C61E48D57B008A1656 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 338DA7C51E48D57B008A1656 /* Assets.xcassets */; };
+		338DA7C91E48D57B008A1656 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 338DA7C71E48D57B008A1656 /* LaunchScreen.storyboard */; };
+		338DA7D41E48D57B008A1656 /* AhorcadoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 338DA7D31E48D57B008A1656 /* AhorcadoTests.swift */; };
+		338DA7DF1E48D57B008A1656 /* AhorcadoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 338DA7DE1E48D57B008A1656 /* AhorcadoUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		338DA7D01E48D57B008A1656 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 338DA7B31E48D57B008A1656 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 338DA7BA1E48D57B008A1656;
+			remoteInfo = Ahorcado;
+		};
+		338DA7DB1E48D57B008A1656 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 338DA7B31E48D57B008A1656 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 338DA7BA1E48D57B008A1656;
+			remoteInfo = Ahorcado;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		338DA7BB1E48D57B008A1656 /* Ahorcado.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Ahorcado.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		338DA7BE1E48D57B008A1656 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		338DA7C01E48D57B008A1656 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		338DA7C31E48D57B008A1656 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		338DA7C51E48D57B008A1656 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		338DA7C81E48D57B008A1656 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		338DA7CA1E48D57B008A1656 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		338DA7CF1E48D57B008A1656 /* AhorcadoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AhorcadoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		338DA7D31E48D57B008A1656 /* AhorcadoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AhorcadoTests.swift; sourceTree = "<group>"; };
+		338DA7D51E48D57B008A1656 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		338DA7DA1E48D57B008A1656 /* AhorcadoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AhorcadoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		338DA7DE1E48D57B008A1656 /* AhorcadoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AhorcadoUITests.swift; sourceTree = "<group>"; };
+		338DA7E01E48D57B008A1656 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		338DA7B81E48D57B008A1656 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		338DA7CC1E48D57B008A1656 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		338DA7D71E48D57B008A1656 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		338DA7B21E48D57B008A1656 = {
+			isa = PBXGroup;
+			children = (
+				338DA7BD1E48D57B008A1656 /* Ahorcado */,
+				338DA7D21E48D57B008A1656 /* AhorcadoTests */,
+				338DA7DD1E48D57B008A1656 /* AhorcadoUITests */,
+				338DA7BC1E48D57B008A1656 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		338DA7BC1E48D57B008A1656 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				338DA7BB1E48D57B008A1656 /* Ahorcado.app */,
+				338DA7CF1E48D57B008A1656 /* AhorcadoTests.xctest */,
+				338DA7DA1E48D57B008A1656 /* AhorcadoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		338DA7BD1E48D57B008A1656 /* Ahorcado */ = {
+			isa = PBXGroup;
+			children = (
+				338DA7BE1E48D57B008A1656 /* AppDelegate.swift */,
+				338DA7C01E48D57B008A1656 /* ViewController.swift */,
+				338DA7C21E48D57B008A1656 /* Main.storyboard */,
+				338DA7C51E48D57B008A1656 /* Assets.xcassets */,
+				338DA7C71E48D57B008A1656 /* LaunchScreen.storyboard */,
+				338DA7CA1E48D57B008A1656 /* Info.plist */,
+			);
+			path = Ahorcado;
+			sourceTree = "<group>";
+		};
+		338DA7D21E48D57B008A1656 /* AhorcadoTests */ = {
+			isa = PBXGroup;
+			children = (
+				338DA7D31E48D57B008A1656 /* AhorcadoTests.swift */,
+				338DA7D51E48D57B008A1656 /* Info.plist */,
+			);
+			path = AhorcadoTests;
+			sourceTree = "<group>";
+		};
+		338DA7DD1E48D57B008A1656 /* AhorcadoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				338DA7DE1E48D57B008A1656 /* AhorcadoUITests.swift */,
+				338DA7E01E48D57B008A1656 /* Info.plist */,
+			);
+			path = AhorcadoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		338DA7BA1E48D57B008A1656 /* Ahorcado */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 338DA7E31E48D57B008A1656 /* Build configuration list for PBXNativeTarget "Ahorcado" */;
+			buildPhases = (
+				338DA7B71E48D57B008A1656 /* Sources */,
+				338DA7B81E48D57B008A1656 /* Frameworks */,
+				338DA7B91E48D57B008A1656 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Ahorcado;
+			productName = Ahorcado;
+			productReference = 338DA7BB1E48D57B008A1656 /* Ahorcado.app */;
+			productType = "com.apple.product-type.application";
+		};
+		338DA7CE1E48D57B008A1656 /* AhorcadoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 338DA7E61E48D57B008A1656 /* Build configuration list for PBXNativeTarget "AhorcadoTests" */;
+			buildPhases = (
+				338DA7CB1E48D57B008A1656 /* Sources */,
+				338DA7CC1E48D57B008A1656 /* Frameworks */,
+				338DA7CD1E48D57B008A1656 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				338DA7D11E48D57B008A1656 /* PBXTargetDependency */,
+			);
+			name = AhorcadoTests;
+			productName = AhorcadoTests;
+			productReference = 338DA7CF1E48D57B008A1656 /* AhorcadoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		338DA7D91E48D57B008A1656 /* AhorcadoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 338DA7E91E48D57B008A1656 /* Build configuration list for PBXNativeTarget "AhorcadoUITests" */;
+			buildPhases = (
+				338DA7D61E48D57B008A1656 /* Sources */,
+				338DA7D71E48D57B008A1656 /* Frameworks */,
+				338DA7D81E48D57B008A1656 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				338DA7DC1E48D57B008A1656 /* PBXTargetDependency */,
+			);
+			name = AhorcadoUITests;
+			productName = AhorcadoUITests;
+			productReference = 338DA7DA1E48D57B008A1656 /* AhorcadoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		338DA7B31E48D57B008A1656 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = silverB;
+				TargetAttributes = {
+					338DA7BA1E48D57B008A1656 = {
+						CreatedOnToolsVersion = 8.2;
+						ProvisioningStyle = Automatic;
+					};
+					338DA7CE1E48D57B008A1656 = {
+						CreatedOnToolsVersion = 8.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 338DA7BA1E48D57B008A1656;
+					};
+					338DA7D91E48D57B008A1656 = {
+						CreatedOnToolsVersion = 8.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 338DA7BA1E48D57B008A1656;
+					};
+				};
+			};
+			buildConfigurationList = 338DA7B61E48D57B008A1656 /* Build configuration list for PBXProject "Ahorcado" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 338DA7B21E48D57B008A1656;
+			productRefGroup = 338DA7BC1E48D57B008A1656 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				338DA7BA1E48D57B008A1656 /* Ahorcado */,
+				338DA7CE1E48D57B008A1656 /* AhorcadoTests */,
+				338DA7D91E48D57B008A1656 /* AhorcadoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		338DA7B91E48D57B008A1656 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				338DA7C91E48D57B008A1656 /* LaunchScreen.storyboard in Resources */,
+				338DA7C61E48D57B008A1656 /* Assets.xcassets in Resources */,
+				338DA7C41E48D57B008A1656 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		338DA7CD1E48D57B008A1656 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		338DA7D81E48D57B008A1656 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		338DA7B71E48D57B008A1656 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				338DA7C11E48D57B008A1656 /* ViewController.swift in Sources */,
+				338DA7BF1E48D57B008A1656 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		338DA7CB1E48D57B008A1656 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				338DA7D41E48D57B008A1656 /* AhorcadoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		338DA7D61E48D57B008A1656 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				338DA7DF1E48D57B008A1656 /* AhorcadoUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		338DA7D11E48D57B008A1656 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 338DA7BA1E48D57B008A1656 /* Ahorcado */;
+			targetProxy = 338DA7D01E48D57B008A1656 /* PBXContainerItemProxy */;
+		};
+		338DA7DC1E48D57B008A1656 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 338DA7BA1E48D57B008A1656 /* Ahorcado */;
+			targetProxy = 338DA7DB1E48D57B008A1656 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		338DA7C21E48D57B008A1656 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				338DA7C31E48D57B008A1656 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		338DA7C71E48D57B008A1656 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				338DA7C81E48D57B008A1656 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		338DA7E11E48D57B008A1656 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		338DA7E21E48D57B008A1656 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		338DA7E41E48D57B008A1656 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Ahorcado/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = silverB.Ahorcado;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		338DA7E51E48D57B008A1656 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Ahorcado/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = silverB.Ahorcado;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		338DA7E71E48D57B008A1656 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = AhorcadoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = silverB.AhorcadoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Ahorcado.app/Ahorcado";
+			};
+			name = Debug;
+		};
+		338DA7E81E48D57B008A1656 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = AhorcadoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = silverB.AhorcadoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Ahorcado.app/Ahorcado";
+			};
+			name = Release;
+		};
+		338DA7EA1E48D57B008A1656 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = AhorcadoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = silverB.AhorcadoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Ahorcado;
+			};
+			name = Debug;
+		};
+		338DA7EB1E48D57B008A1656 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = AhorcadoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = silverB.AhorcadoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Ahorcado;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		338DA7B61E48D57B008A1656 /* Build configuration list for PBXProject "Ahorcado" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				338DA7E11E48D57B008A1656 /* Debug */,
+				338DA7E21E48D57B008A1656 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		338DA7E31E48D57B008A1656 /* Build configuration list for PBXNativeTarget "Ahorcado" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				338DA7E41E48D57B008A1656 /* Debug */,
+				338DA7E51E48D57B008A1656 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		338DA7E61E48D57B008A1656 /* Build configuration list for PBXNativeTarget "AhorcadoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				338DA7E71E48D57B008A1656 /* Debug */,
+				338DA7E81E48D57B008A1656 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		338DA7E91E48D57B008A1656 /* Build configuration list for PBXNativeTarget "AhorcadoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				338DA7EA1E48D57B008A1656 /* Debug */,
+				338DA7EB1E48D57B008A1656 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 338DA7B31E48D57B008A1656 /* Project object */;
+}
