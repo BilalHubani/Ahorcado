@@ -14,6 +14,13 @@
 		338DA7C91E48D57B008A1656 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 338DA7C71E48D57B008A1656 /* LaunchScreen.storyboard */; };
 		338DA7D41E48D57B008A1656 /* AhorcadoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 338DA7D31E48D57B008A1656 /* AhorcadoTests.swift */; };
 		338DA7DF1E48D57B008A1656 /* AhorcadoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 338DA7DE1E48D57B008A1656 /* AhorcadoUITests.swift */; };
+		338DA7F31E48F430008A1656 /* cuerda.png in Resources */ = {isa = PBXBuildFile; fileRef = 338DA7EC1E48F430008A1656 /* cuerda.png */; };
+		338DA7F41E48F430008A1656 /* lisa_brazo.png in Resources */ = {isa = PBXBuildFile; fileRef = 338DA7ED1E48F430008A1656 /* lisa_brazo.png */; };
+		338DA7F51E48F430008A1656 /* lisa_cuello.png in Resources */ = {isa = PBXBuildFile; fileRef = 338DA7EE1E48F430008A1656 /* lisa_cuello.png */; };
+		338DA7F61E48F430008A1656 /* lisa_cuerpo.png in Resources */ = {isa = PBXBuildFile; fileRef = 338DA7EF1E48F430008A1656 /* lisa_cuerpo.png */; };
+		338DA7F71E48F430008A1656 /* lisa_full.png in Resources */ = {isa = PBXBuildFile; fileRef = 338DA7F01E48F430008A1656 /* lisa_full.png */; };
+		338DA7F81E48F430008A1656 /* lisa_pierna.png in Resources */ = {isa = PBXBuildFile; fileRef = 338DA7F11E48F430008A1656 /* lisa_pierna.png */; };
+		338DA7F91E48F430008A1656 /* lisa_piernas.png in Resources */ = {isa = PBXBuildFile; fileRef = 338DA7F21E48F430008A1656 /* lisa_piernas.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +54,13 @@
 		338DA7DA1E48D57B008A1656 /* AhorcadoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AhorcadoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		338DA7DE1E48D57B008A1656 /* AhorcadoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AhorcadoUITests.swift; sourceTree = "<group>"; };
 		338DA7E01E48D57B008A1656 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		338DA7EC1E48F430008A1656 /* cuerda.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cuerda.png; sourceTree = "<group>"; };
+		338DA7ED1E48F430008A1656 /* lisa_brazo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lisa_brazo.png; sourceTree = "<group>"; };
+		338DA7EE1E48F430008A1656 /* lisa_cuello.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lisa_cuello.png; sourceTree = "<group>"; };
+		338DA7EF1E48F430008A1656 /* lisa_cuerpo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lisa_cuerpo.png; sourceTree = "<group>"; };
+		338DA7F01E48F430008A1656 /* lisa_full.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lisa_full.png; sourceTree = "<group>"; };
+		338DA7F11E48F430008A1656 /* lisa_pierna.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lisa_pierna.png; sourceTree = "<group>"; };
+		338DA7F21E48F430008A1656 /* lisa_piernas.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lisa_piernas.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +117,13 @@
 				338DA7C51E48D57B008A1656 /* Assets.xcassets */,
 				338DA7C71E48D57B008A1656 /* LaunchScreen.storyboard */,
 				338DA7CA1E48D57B008A1656 /* Info.plist */,
+				338DA7EC1E48F430008A1656 /* cuerda.png */,
+				338DA7ED1E48F430008A1656 /* lisa_brazo.png */,
+				338DA7EE1E48F430008A1656 /* lisa_cuello.png */,
+				338DA7EF1E48F430008A1656 /* lisa_cuerpo.png */,
+				338DA7F01E48F430008A1656 /* lisa_full.png */,
+				338DA7F11E48F430008A1656 /* lisa_pierna.png */,
+				338DA7F21E48F430008A1656 /* lisa_piernas.png */,
 			);
 			path = Ahorcado;
 			sourceTree = "<group>";
@@ -233,7 +254,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				338DA7C91E48D57B008A1656 /* LaunchScreen.storyboard in Resources */,
+				338DA7F41E48F430008A1656 /* lisa_brazo.png in Resources */,
+				338DA7F81E48F430008A1656 /* lisa_pierna.png in Resources */,
+				338DA7F91E48F430008A1656 /* lisa_piernas.png in Resources */,
+				338DA7F31E48F430008A1656 /* cuerda.png in Resources */,
+				338DA7F71E48F430008A1656 /* lisa_full.png in Resources */,
+				338DA7F61E48F430008A1656 /* lisa_cuerpo.png in Resources */,
 				338DA7C61E48D57B008A1656 /* Assets.xcassets in Resources */,
+				338DA7F51E48F430008A1656 /* lisa_cuello.png in Resources */,
 				338DA7C41E48D57B008A1656 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -503,6 +531,7 @@
 				338DA7E51E48D57B008A1656 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		338DA7E61E48D57B008A1656 /* Build configuration list for PBXNativeTarget "AhorcadoTests" */ = {
 			isa = XCConfigurationList;
@@ -511,6 +540,7 @@
 				338DA7E81E48D57B008A1656 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		338DA7E91E48D57B008A1656 /* Build configuration list for PBXNativeTarget "AhorcadoUITests" */ = {
 			isa = XCConfigurationList;
@@ -519,6 +549,7 @@
 				338DA7EB1E48D57B008A1656 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
